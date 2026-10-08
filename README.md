@@ -8,7 +8,13 @@ The goal is to build a classification model that can assist financial institutio
 
 ## Application Preview
 
-![Loan Approval Prediction App](screenshots/loan_prediction_app.png)
+### Loan Application Form
+
+![Loan Application Form](screenshots/loan_prediction_form.png)
+
+### Prediction Result
+
+![Loan Approval Prediction](screenshots/loan_prediction_app.png)
 
 ---
 
