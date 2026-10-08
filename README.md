@@ -6,6 +6,10 @@ This project uses Machine Learning to predict whether a loan application will be
 
 The goal is to build a classification model that can assist financial institutions in making faster and more consistent loan approval decisions.
 
+## Application Preview
+
+![Loan Approval Prediction App](screenshots/loan_prediction_app.png)
+
 ---
 
 ## Objective
