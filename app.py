@@ -10,14 +10,11 @@ model_features = joblib.load("models/model_features.pkl")
 
 # Page configuration
 st.set_page_config(
-    page_title="Loan Approval Predictor",
-    page_icon="💰",
-    layout="centered"
+    page_title="Loan Approval Prediction"
 )
 
-
 # Title
-st.title("💰 Loan Approval Prediction")
+st.title("Loan Approval Prediction")
 st.write(
     "Enter the applicant's information below to predict "
     "whether the loan is likely to be approved."
