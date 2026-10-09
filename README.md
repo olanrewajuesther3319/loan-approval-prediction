@@ -66,8 +66,7 @@ The following preprocessing steps were performed:
 
    * `Y` → `1`
    * `N` → `0`
-5. The dataset was divided into training and testing sets.
-6. Stratified sampling was used to maintain the class distribution.
+5. The dataset was divided into training and testing sets
 
 The final feature matrix contained **14 features**.
 
@@ -121,12 +120,9 @@ The model was evaluated using:
 * Recall
 * F1-score
 * Confusion Matrix
-
-A confusion matrix was also visualized to understand the model's correct and incorrect predictions.
-
 ---
 
-## Example Prediction
+## Example Used for Prediction
 
 The model can accept a new applicant's information and predict whether the loan is likely to be approved.
 
@@ -155,7 +151,7 @@ Approval Probability: 72.45%
 
 ---
 
-## Streamlit Application
+## Application
 
 A Streamlit web application was created to allow users to interact with the trained model without writing Python code.
 
@@ -191,8 +187,6 @@ Run the Streamlit application:
 python -m streamlit run app.py
 ```
 
-The application will open in your browser.
-
 ---
 
 ## Project Structure
@@ -219,7 +213,7 @@ loan-approval-prediction/
 
 ---
 
-## Technologies Used
+## Tools Used
 
 * Python
 * Pandas
@@ -232,7 +226,7 @@ loan-approval-prediction/
 
 ---
 
-## Machine Learning Workflow
+## Workflow
 
 ```text
 Data Collection
@@ -258,22 +252,4 @@ Final Model Selection
 Streamlit Deployment
 ```
 
----
 
-## Future Improvements
-
-Possible improvements to this project include:
-
-* Testing additional machine learning algorithms
-* Improving feature engineering
-* Addressing class imbalance
-* Adding more evaluation metrics
-* Deploying the Streamlit application online
-* Adding model explainability
-* Improving the user interface
-
----
-
-## Disclaimer
-
-This project is for educational and portfolio purposes. It should not be used as the sole basis for real-world financial or loan approval decisions.
